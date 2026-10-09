@@ -2,6 +2,8 @@
 
 A macOS menu bar app that shows memory usage grouped by the app that actually owns it.
 
+<img src="docs/screenshot.png" alt="memory-bar panel open from the menu bar" width="440">
+
 `top` and `htop` list processes one by one, so an app split into dozens of helpers (Chrome, Slack, Electron apps, Docker VMs) is hard to account for. memory-bar adds up every process an app owns and shows one line per app.
 
 ## What it shows
